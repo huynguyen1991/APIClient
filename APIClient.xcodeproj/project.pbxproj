@@ -3,13 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2FDA63D42549618B002C9343 /* APIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDA63CA2549618B002C9343 /* APIClient.framework */; };
 		2FDA63D92549618B002C9343 /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA63D82549618B002C9343 /* APIClientTests.swift */; };
 		2FDA63DB2549618B002C9343 /* APIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDA63CD2549618B002C9343 /* APIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FDA641B25496C23002C9343 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA641325496C22002C9343 /* APIResponse.swift */; };
+		2FDA641C25496C23002C9343 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA641325496C22002C9343 /* APIResponse.swift */; };
+		2FDA641D25496C23002C9343 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA641425496C22002C9343 /* APIEndpoint.swift */; };
+		2FDA641E25496C23002C9343 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA641425496C22002C9343 /* APIEndpoint.swift */; };
+		2FDA641F25496C23002C9343 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA641525496C22002C9343 /* APIConfig.swift */; };
+		2FDA642025496C23002C9343 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA641525496C22002C9343 /* APIConfig.swift */; };
+		2FDA642125496C23002C9343 /* APIHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA641625496C22002C9343 /* APIHeaders.swift */; };
+		2FDA642225496C23002C9343 /* APIHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA641625496C22002C9343 /* APIHeaders.swift */; };
+		2FDA642325496C23002C9343 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA641725496C22002C9343 /* APIError.swift */; };
+		2FDA642425496C23002C9343 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA641725496C22002C9343 /* APIError.swift */; };
+		2FDA642525496C23002C9343 /* APIRetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA641825496C23002C9343 /* APIRetryPolicy.swift */; };
+		2FDA642625496C23002C9343 /* APIRetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA641825496C23002C9343 /* APIRetryPolicy.swift */; };
+		2FDA642725496C23002C9343 /* APIRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA641925496C23002C9343 /* APIRequestable.swift */; };
+		2FDA642825496C23002C9343 /* APIRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA641925496C23002C9343 /* APIRequestable.swift */; };
+		2FDA642925496C23002C9343 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA641A25496C23002C9343 /* APIClient.swift */; };
+		2FDA642A25496C23002C9343 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA641A25496C23002C9343 /* APIClient.swift */; };
 		5489A2519D359F7E2D9A55A6 /* Pods_APIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8545AD66E1486E26A11EC8C2 /* Pods_APIClient.framework */; };
 		8657C4F4B5234B068827FD91 /* Pods_APIClient_APIClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3702C54F46762CA485BDE8 /* Pods_APIClient_APIClientTests.framework */; };
 /* End PBXBuildFile section */
@@ -32,6 +48,14 @@
 		2FDA63D32549618B002C9343 /* APIClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDA63D82549618B002C9343 /* APIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
 		2FDA63DA2549618B002C9343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FDA641325496C22002C9343 /* APIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		2FDA641425496C22002C9343 /* APIEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		2FDA641525496C22002C9343 /* APIConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		2FDA641625496C22002C9343 /* APIHeaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHeaders.swift; sourceTree = "<group>"; };
+		2FDA641725496C22002C9343 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		2FDA641825496C23002C9343 /* APIRetryPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRetryPolicy.swift; sourceTree = "<group>"; };
+		2FDA641925496C23002C9343 /* APIRequestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestable.swift; sourceTree = "<group>"; };
+		2FDA641A25496C23002C9343 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		6B917E31A8952DD234AABBA5 /* Pods-APIClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClient.debug.xcconfig"; path = "Target Support Files/Pods-APIClient/Pods-APIClient.debug.xcconfig"; sourceTree = "<group>"; };
 		8545AD66E1486E26A11EC8C2 /* Pods_APIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4542B7D4BE1E2EA1D5D4C6 /* Pods-APIClient-APIClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClient-APIClientTests.release.xcconfig"; path = "Target Support Files/Pods-APIClient-APIClientTests/Pods-APIClient-APIClientTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +107,14 @@
 		2FDA63CC2549618B002C9343 /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
+				2FDA641A25496C23002C9343 /* APIClient.swift */,
+				2FDA641525496C22002C9343 /* APIConfig.swift */,
+				2FDA641425496C22002C9343 /* APIEndpoint.swift */,
+				2FDA641725496C22002C9343 /* APIError.swift */,
+				2FDA641625496C22002C9343 /* APIHeaders.swift */,
+				2FDA641925496C23002C9343 /* APIRequestable.swift */,
+				2FDA641325496C22002C9343 /* APIResponse.swift */,
+				2FDA641825496C23002C9343 /* APIRetryPolicy.swift */,
 				2FDA63CD2549618B002C9343 /* APIClient.h */,
 				2FDA63CE2549618B002C9343 /* Info.plist */,
 			);
@@ -115,7 +147,6 @@
 				EEEAFF333D73019422503986 /* Pods-APIClient-APIClientTests.debug.xcconfig */,
 				9C4542B7D4BE1E2EA1D5D4C6 /* Pods-APIClient-APIClientTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -183,6 +214,7 @@
 				TargetAttributes = {
 					2FDA63C92549618B002C9343 = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 					};
 					2FDA63D22549618B002C9343 = {
 						CreatedOnToolsVersion = 12.0;
@@ -294,6 +326,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FDA641B25496C23002C9343 /* APIResponse.swift in Sources */,
+				2FDA642125496C23002C9343 /* APIHeaders.swift in Sources */,
+				2FDA641D25496C23002C9343 /* APIEndpoint.swift in Sources */,
+				2FDA642925496C23002C9343 /* APIClient.swift in Sources */,
+				2FDA642325496C23002C9343 /* APIError.swift in Sources */,
+				2FDA641F25496C23002C9343 /* APIConfig.swift in Sources */,
+				2FDA642525496C23002C9343 /* APIRetryPolicy.swift in Sources */,
+				2FDA642725496C23002C9343 /* APIRequestable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +342,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FDA63D92549618B002C9343 /* APIClientTests.swift in Sources */,
+				2FDA641E25496C23002C9343 /* APIEndpoint.swift in Sources */,
+				2FDA642225496C23002C9343 /* APIHeaders.swift in Sources */,
+				2FDA642625496C23002C9343 /* APIRetryPolicy.swift in Sources */,
+				2FDA642025496C23002C9343 /* APIConfig.swift in Sources */,
+				2FDA641C25496C23002C9343 /* APIResponse.swift in Sources */,
+				2FDA642825496C23002C9343 /* APIRequestable.swift in Sources */,
+				2FDA642425496C23002C9343 /* APIError.swift in Sources */,
+				2FDA642A25496C23002C9343 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B917E31A8952DD234AABBA5 /* Pods-APIClient.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -457,6 +506,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.APIClient;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 139A308576263193B6C82FED /* Pods-APIClient.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -490,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EEEAFF333D73019422503986 /* Pods-APIClient-APIClientTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = APIClientTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -508,6 +560,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C4542B7D4BE1E2EA1D5D4C6 /* Pods-APIClient-APIClientTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = APIClientTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
