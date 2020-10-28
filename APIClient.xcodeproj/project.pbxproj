@@ -10,6 +10,8 @@
 		2FDA63D42549618B002C9343 /* APIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDA63CA2549618B002C9343 /* APIClient.framework */; };
 		2FDA63D92549618B002C9343 /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA63D82549618B002C9343 /* APIClientTests.swift */; };
 		2FDA63DB2549618B002C9343 /* APIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDA63CD2549618B002C9343 /* APIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5489A2519D359F7E2D9A55A6 /* Pods_APIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8545AD66E1486E26A11EC8C2 /* Pods_APIClient.framework */; };
+		8657C4F4B5234B068827FD91 /* Pods_APIClient_APIClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3702C54F46762CA485BDE8 /* Pods_APIClient_APIClientTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +25,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		139A308576263193B6C82FED /* Pods-APIClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClient.release.xcconfig"; path = "Target Support Files/Pods-APIClient/Pods-APIClient.release.xcconfig"; sourceTree = "<group>"; };
 		2FDA63CA2549618B002C9343 /* APIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDA63CD2549618B002C9343 /* APIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
 		2FDA63CE2549618B002C9343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FDA63D32549618B002C9343 /* APIClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDA63D82549618B002C9343 /* APIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
 		2FDA63DA2549618B002C9343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B917E31A8952DD234AABBA5 /* Pods-APIClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClient.debug.xcconfig"; path = "Target Support Files/Pods-APIClient/Pods-APIClient.debug.xcconfig"; sourceTree = "<group>"; };
+		8545AD66E1486E26A11EC8C2 /* Pods_APIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4542B7D4BE1E2EA1D5D4C6 /* Pods-APIClient-APIClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClient-APIClientTests.release.xcconfig"; path = "Target Support Files/Pods-APIClient-APIClientTests/Pods-APIClient-APIClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		EEEAFF333D73019422503986 /* Pods-APIClient-APIClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClient-APIClientTests.debug.xcconfig"; path = "Target Support Files/Pods-APIClient-APIClientTests/Pods-APIClient-APIClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF3702C54F46762CA485BDE8 /* Pods_APIClient_APIClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIClient_APIClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5489A2519D359F7E2D9A55A6 /* Pods_APIClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FDA63D42549618B002C9343 /* APIClient.framework in Frameworks */,
+				8657C4F4B5234B068827FD91 /* Pods_APIClient_APIClientTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +66,8 @@
 				2FDA63CC2549618B002C9343 /* APIClient */,
 				2FDA63D72549618B002C9343 /* APIClientTests */,
 				2FDA63CB2549618B002C9343 /* Products */,
+				DD68622477D9DB8685F3714F /* Pods */,
+				C13371087F5BA7B616A871E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +98,27 @@
 			path = APIClientTests;
 			sourceTree = "<group>";
 		};
+		C13371087F5BA7B616A871E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8545AD66E1486E26A11EC8C2 /* Pods_APIClient.framework */,
+				EF3702C54F46762CA485BDE8 /* Pods_APIClient_APIClientTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD68622477D9DB8685F3714F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B917E31A8952DD234AABBA5 /* Pods-APIClient.debug.xcconfig */,
+				139A308576263193B6C82FED /* Pods-APIClient.release.xcconfig */,
+				EEEAFF333D73019422503986 /* Pods-APIClient-APIClientTests.debug.xcconfig */,
+				9C4542B7D4BE1E2EA1D5D4C6 /* Pods-APIClient-APIClientTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -104,6 +137,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FDA63DE2549618B002C9343 /* Build configuration list for PBXNativeTarget "APIClient" */;
 			buildPhases = (
+				F62E26A56CD5F518D2B50AD8 /* [CP] Check Pods Manifest.lock */,
 				2FDA63C52549618B002C9343 /* Headers */,
 				2FDA63C62549618B002C9343 /* Sources */,
 				2FDA63C72549618B002C9343 /* Frameworks */,
@@ -122,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FDA63E12549618B002C9343 /* Build configuration list for PBXNativeTarget "APIClientTests" */;
 			buildPhases = (
+				A7F56D532947FC744029F38F /* [CP] Check Pods Manifest.lock */,
 				2FDA63CF2549618B002C9343 /* Sources */,
 				2FDA63D02549618B002C9343 /* Frameworks */,
 				2FDA63D12549618B002C9343 /* Resources */,
+				13712CEF9611AC72DA298147 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,6 +224,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13712CEF9611AC72DA298147 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APIClient-APIClientTests/Pods-APIClient-APIClientTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APIClient-APIClientTests/Pods-APIClient-APIClientTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APIClient-APIClientTests/Pods-APIClient-APIClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F56D532947FC744029F38F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APIClient-APIClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F62E26A56CD5F518D2B50AD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APIClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2FDA63C62549618B002C9343 /* Sources */ = {
@@ -340,6 +440,7 @@
 		};
 		2FDA63DF2549618B002C9343 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B917E31A8952DD234AABBA5 /* Pods-APIClient.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -363,6 +464,7 @@
 		};
 		2FDA63E02549618B002C9343 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139A308576263193B6C82FED /* Pods-APIClient.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -386,6 +488,7 @@
 		};
 		2FDA63E22549618B002C9343 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEEAFF333D73019422503986 /* Pods-APIClient-APIClientTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = APIClientTests/Info.plist;
@@ -403,6 +506,7 @@
 		};
 		2FDA63E32549618B002C9343 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4542B7D4BE1E2EA1D5D4C6 /* Pods-APIClient-APIClientTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = APIClientTests/Info.plist;
