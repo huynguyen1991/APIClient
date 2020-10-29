@@ -11,13 +11,10 @@ import Alamofire
 
 protocol APIRequestable: Encodable {
     associatedtype Response: Decodable
-  
     var entryPoint: APIEndpoint { get }
     var headers: APIHeaders { get }
-    var token: String { get }
 }
 
 extension APIRequestable {
     var headers: APIHeaders { get { return .none } }
-    var token: String {get {return "none"} }
 }

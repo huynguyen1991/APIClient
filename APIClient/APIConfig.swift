@@ -11,5 +11,4 @@ import Foundation
 public protocol APIConfig {
     var baseEndpointUrl: URL { get }
     var codeSuccess: Int { get }
-    var invalidToken: Int { get }
 }
